@@ -3,7 +3,7 @@ set(FLASHINFER_ENABLE_FP8 ON)
 # Whether to compile bf16 kernels or not.
 set(FLASHINFER_ENABLE_BF16 ON)
 # Whether to compile tvm bindings or not.
-set(FLASHINFER_TVM_BINDING ON)
+set(FLASHINFER_TVM_BINDING OFF)
 # Whether to compile prefill kernel tests/benchmarks or not.
 set(FLASHINFER_PREFILL ON)
 # Whether to compile decode kernel tests/benchmarks or not.
