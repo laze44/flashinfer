@@ -84,7 +84,7 @@ if(FLASHINFER_PREFILL
   if(FLASHINFER_DISTRIBUTED)
     add_subdirectory(3rdparty/mscclpp)
   else(FLASHINFER_DISTRIBUTED)
-    add_subdirectory(3rdparty/googletest)
+    add_subdirectory(../googletest)
   endif(FLASHINFER_DISTRIBUTED)
 endif(
   FLASHINFER_PREFILL
