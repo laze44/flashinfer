@@ -21,7 +21,7 @@ set(FLASHINFER_FASTDIV_TEST ON)
 # Whether to compile fastdequant tests
 set(FLASHINFER_FASTDEQUANT_TEST ON)
 # Whether to compile distributed tests
-set(FLASHINFER_DISTRIBUTED ON)
+set(FLASHINFER_DISTRIBUTED OFF)
 # The following configurations can impact the binary size of the generated
 # library
 set(FLASHINFER_GEN_HEAD_DIMS 64 128 256 512)
