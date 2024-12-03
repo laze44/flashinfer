@@ -6,7 +6,7 @@ include(cmake/utils/Utils.cmake)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CUDA_STANDARD 17)
 
-set(CMAKE_CUDA_ARCHITECTURES native)
+set(CMAKE_CUDA_ARCHITECTURES 80)
 
 if(EXISTS ${CMAKE_BINARY_DIR}/config.cmake)
   include(${CMAKE_BINARY_DIR}/config.cmake)

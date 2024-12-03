@@ -56,7 +56,7 @@ void bench_flashinfer_batch_prefill_with_ragged_kv(nvbench::state& state) {
 
   // Provide throughput information:
   state.add_global_memory_reads<dtype_in>(
-      (batch_size * qo_len * num_qo_heads + 2 * batch_size * kv_len * num_kv_heads) * head_dim,
+      (batch_size * qo_len * num_qo_heads + 2 * batch_size *yo kv_len * num_kv_heads) * head_dim,
       "Read");
   state.add_global_memory_writes<dtype_out>(qo_len * batch_size * num_qo_heads * head_dim, "Write");
 
